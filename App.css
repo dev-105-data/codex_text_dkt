@@ -118,3 +118,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+.futuristic-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgba(56, 189, 248, 0.2) 1px, transparent 0);
+  background-size: 28px 28px;
+  opacity: 0.35;
+}
+
+.glow-orb {
+  width: 320px;
+  height: 320px;
+  border-radius: 9999px;
+  filter: blur(40px);
+  opacity: 0.6;
+}
+
+.glow-orb-cyan {
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.45), transparent 70%);
+}
+
+.glow-orb-purple {
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.5), transparent 70%);
+}
+
+.glass-card {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(15, 23, 42, 0.65);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.25);
+  backdrop-filter: blur(14px);
+}
