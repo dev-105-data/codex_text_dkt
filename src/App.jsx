@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import { Button } from '@/components/ui/button.jsx'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
-import { Input } from '@/components/ui/input.jsx'
-import { Textarea } from '@/components/ui/textarea.jsx'
+import { Button } from './components/ui/button.jsx'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card.jsx'
+import { Input } from './components/ui/input.jsx'
+import { Textarea } from './components/ui/textarea.jsx'
 import { Menu, X, ArrowRight, Shield, RefreshCw, Database, Cloud, CheckCircle, Mail, MapPin, Sparkles, Activity } from 'lucide-react'
 import './App.css'
 
@@ -11,9 +11,9 @@ import heroBackground from './assets/hero_background.png'
 import dataGovernanceIcon from './assets/data_governance_icon.png'
 import dataMigrationIcon from './assets/data_migration_icon.png'
 import dataIngestionIcon from './assets/data_ingestion_icon.png'
-import databricksLogo from './assets/databricks_logo.png'
-import awsLogo from './assets/aws_logo.png'
-import azureLogo from './assets/azure_logo.png'
+import databricksLogo from './assets/databricks_logo.svg'
+import awsLogo from './assets/aws_logo.svg'
+import azureLogo from './assets/azure_logo.svg'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
